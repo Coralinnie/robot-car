@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="controller/index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="car">
+        <div class="lights">
+          <div
+            onclick="turnDirectionLightsOn('arrow-left')"
+            class="arrow-left clickable"
+            id="arrow-left"
+          ></div>
+          <div
+            class="arrow-right clickable"
+            id="arrow-right"
+            onclick="turnDirectionLightsOn('arrow-right')"
+          ></div>
+        </div>
+        <div class="lights turn">
+          <img
+            class="direction clickable"
+            height="50"
+            src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Mauritius_Road_Signs_-_Mandatory_Sign_-_Left_turn_only.svg"
+          />
+          <img
+            class="direction clickable"
+            height="50"
+            src="https://www.stickpng.com/assets/images/58595af84f6ae202fedf2832.png"
+          />
+        </div>
+        <div class="gearbox">
+          <label class="trasmition"
+            ><input type="radio" name="transmition" />1</label
+          >
+          <label class="trasmition"
+            ><input type="radio" name="transmition" />2</label
+          >
+          <label class="trasmition"
+            ><input type="radio" name="transmition" />3</label
+          >
+          <label class="trasmition"
+            ><input type="radio" name="transmition" />4</label
+          >
+          <label class="trasmition"
+            ><input type="radio" name="transmition" />5</label
+          >
+          <label class="trasmition"
+            ><input type="radio" name="transmition" />6</label
+          >
+          <label class="trasmition"
+            ><input type="radio" name="transmition" />R</label
+          >
+          <label class="trasmition"
+            ><input type="radio" name="transmition" checked />N</label
+          >
+        </form>
+      </div>
+      <div class="turn-on">
+          <label><input type="checkbox" name="ON">ON</label>
+        </div>
+      <div class="pedals"> 
+        <button class="pedal">Clutch</button>
+        <button class="pedal">Break</button>
+        <button class="pedal">Gas</button>
+      </div> 
+      <div class="parking">
+      <button><img src="https://images.vexels.com/media/users/3/139374/isolated/preview/71a5137d3ec6fe1c80ac3b5755522c87-triangle-basic-by-vexels.png" height="12"></button>
+    </div>
+    <div class="had">
+      <button class="had-b"><img src="https://image.flaticon.com/icons/png/512/1580/1580208.png" height="30"></button>
+    </div>
+        <!-- <div class="stop-placeholder" id="stopWindow">
+          <label class="stop-label" for="stop">45:00:00</label>
+          <img
+            height="250"
+            src="https://purepng.com/public/uploads/large/purepng.com-sign-stoptraffic-signsign-stopnotify-driversstop-signs-1701527614263a3116.png"
+          />
+        </div> -->
+      </div>
+      <button class="stop" id="hideButton" onclick="hideStopDialog()">
+        Stop
+      </button>
+      </div>
+  </body>
+</html>
