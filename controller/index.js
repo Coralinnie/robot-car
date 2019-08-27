@@ -1,6 +1,8 @@
 let isDirectionActive = false;
 let directionalInterval = null;
 
+this.travel();
+
 function hideStopDialog() {
   const stopContainer = document.getElementById("stopWindow");
   if (
@@ -43,3 +45,19 @@ function clearDirectional() {
   left.style.borderRight = "15px solid rgba(255, 187, 0, 0.4)";
   right.style.borderLeft = "15px solid rgba(255, 187, 0, 0.4)";
 }
+
+function travel(){
+  const km = Math.round(Math.random()* 250 ) + 10;
+console.log("El recorrido es de " + km + "Km");
+const Stops = km/2; 
+const time = Math.round(Math.random()* 10 ) + 4;
+console.log("se hará una parada por cada: " + Stops + "Km\n de " + time + "min");
+//const Speed = Math.round(Math.random()* 200 ) + 60
+
+//const ExtraTime = time*2;
+}
+
+
+
+
+
