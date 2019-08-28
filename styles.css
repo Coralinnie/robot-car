@@ -6,8 +6,8 @@ body {
 body {
   margin: 0;
 }
-
-.container {
+/**********************************************CONTENIDO CAR****************************************************/
+.container { 
   position: relative;
   display: flex;
   flex-direction: column;
@@ -17,8 +17,8 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-.car {
+/*************************************************CARROOOOOOOOOO***********************************************/
+.car { 
   position: relative;
   background-image: url("https://a.ccdn.es/cnet/contents/media/bmw/serie_1/1090637.jpg/0_235_1280_955//937x624cut/");
   background-size: cover;
@@ -26,8 +26,8 @@ body {
   width: 900px;
   height: 500px;
 }
-
-.stop-placeholder {
+/******************************************PANTALLA STOP******************************************************/
+.stop-placeholder { 
   visibility: visible;
   display: flex;
   flex-direction: column;
@@ -37,8 +37,8 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-.stop-label {
+/*********************************************CONTABILIZADOR DE PARADA***************************************************/
+.stop-label { 
   font-size: 28px;
 }
 
@@ -50,7 +50,9 @@ body {
   opacity: 0.4;
 }
 
-.arrow-left {
+/************************************************DIRECCIONALES**************************************************/
+
+.arrow-left { /***********************DIRECCIONAL IZQUIERDA**************/
   width: 0;
   height: 0;
   border-top: 15px solid transparent;
@@ -59,7 +61,7 @@ body {
   border-right: 15px solid rgba(255, 190, 0, 0.4);
 }
 
-.arrow-right {
+.arrow-right { /***************DIRECCIONAL DERECHA*******************/
   width: 0;
   height: 0;
   border-top: 15px solid transparent;
@@ -67,8 +69,8 @@ body {
   /* border-left: 15px solid rgb(255, 187, 0); */
   border-left: 15px solid rgba(255, 190, 0, 0.4);
 }
-
-.lights {
+/**************************POSICIONAMIENTO DEL DIV (DIRECCIONALES)********************************/
+.lights { 
   position: absolute;
   left: 43%;
   top: 100px;
@@ -76,14 +78,14 @@ body {
   justify-content: space-between;
   width: 120px;
 }
-
-.turn {
+/******************************************VOLANTE******************************************************/
+.turn { 
   left: 30%;
   width: 350px;
   top: 160px;
 }
-
-.trasmition {
+/******************************************CAJA DE CAMBIOS******************************************************/
+.trasmition { 
   color: white;
 }
 
@@ -93,7 +95,7 @@ body {
   position: absolute;
   width: 130px;
 }
-
+/******************************************PEDALES******************************************************/
 .pedals {
   height: 70px;
   position: absolute;
@@ -111,16 +113,19 @@ body {
 }
 
 .pedal:hover {
-  opacity: 0.8;
-  background-color: #4a27e6;
+  cursor: pointer;
 }
 
+.pedal:active {
+  background-color: #1d1d1d;
+}
+/******************************************BOTÓN DE PARQUEO******************************************************/
 .parking {
   position: absolute;
   right: 165px;
   bottom: 380px;
 }
-
+/******************************************FRENO DE MANO******************************************************/
 .had-b {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -138,7 +143,7 @@ body {
   bottom: 10px;
   right: 160px;
 }
-
+/******************************************BOTÓN DE ENCENDIDO******************************************************/
 .turn-on {
   position: absolute;
   right: 300px;
