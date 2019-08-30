@@ -28,11 +28,15 @@ body {
 }
 /******************************************PANTALLA STOP******************************************************/
 .stop-placeholder { 
+<<<<<<< HEAD
+  position: relative;
+=======
+>>>>>>> c1d3344476d35cc511f1d7ac7a85c812efa6e990
   visibility: visible;
   display: flex;
   flex-direction: column;
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.8);
   height: 100%;
   align-items: center;
   justify-content: center;
@@ -57,7 +61,6 @@ body {
   height: 0;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  /* border-right: 15px solid rgb(255, 187, 0); */
   border-right: 15px solid rgba(255, 190, 0, 0.4);
 }
 
@@ -66,7 +69,6 @@ body {
   height: 0;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  /* border-left: 15px solid rgb(255, 187, 0); */
   border-left: 15px solid rgba(255, 190, 0, 0.4);
 }
 /**************************POSICIONAMIENTO DEL DIV (DIRECCIONALES)********************************/
@@ -131,11 +133,11 @@ body {
   -moz-border-radius: 50px;
   border-radius: 50px;
   height: 45px;
-  background-color: #ff0000;
+  background-color: #00ff2a;
 }
 .had-b:hover {
   opacity: 0.8;
-  background-color: #00ff2a;
+  background-color: #ff0000;
 }
 
 .had {
@@ -149,4 +151,11 @@ body {
   right: 300px;
   bottom: 200px;
   color: white;
+}
+.encender {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  height: 25px;
+
 }
