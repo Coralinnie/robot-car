@@ -8,7 +8,6 @@ testBreak(){
 testGas(){
     console.log('Acelerador presionado');
 }
-<<<<<<< HEAD
 
 }
 window.addEventListener("keydown", function (event) {
@@ -67,6 +66,3 @@ window.addEventListener("keydown", function (event) {
     }
   });
   
-=======
-}
->>>>>>> c1d3344476d35cc511f1d7ac7a85c812efa6e990

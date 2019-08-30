@@ -8,7 +8,6 @@ class Direccion{
     testDireccionRight(){
         console.log('Voltiando hacia la derecha');
     }
-<<<<<<< HEAD
 
 }
 
@@ -47,6 +46,3 @@ function clearDirectional() {
 }
 
   
-=======
-}
->>>>>>> c1d3344476d35cc511f1d7ac7a85c812efa6e990
